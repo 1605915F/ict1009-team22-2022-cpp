@@ -8,14 +8,14 @@ using namespace std;
 
 class Porkemoon {
 private:
-	int health;
 	string porkeName;
 	int maxHealth;
+	int health;
 	float attackScale;
 	vector<Item> inventory;
 	static const int baseAttack;
 public:
-	Porkemoon(string porkeName, int maxHealth);
+	Porkemoon(string porkeName, int maxHealth, int attackScale);
 	string getPorkeName();
 	void setPorkeName(string porkeName);
 	int getHealth();

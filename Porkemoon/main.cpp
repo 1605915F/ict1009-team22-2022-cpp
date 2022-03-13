@@ -9,7 +9,7 @@
 int main()
 {
     int choice;
-    // To dynamically iterate all porkemoons
+    // To dynamically iterate all porkemoons instead of hardcoding 1. tammy 2. jarry etc.
     // idk how choose either tammy or jarry based on user input sia
     cout << "Choose your Porkemoon!\n";
     cout << "1. Tammy\n";
@@ -18,12 +18,14 @@ int main()
 
     //Testing
     Porkemoon *pork;
-    pork = &Tammy("Tammy", 100);
+    pork = &Tammy();
 
     Item* itai;
-    itai = &Potion("Potion", 2);
+    itai = &Potion();
 
     cout << itai->effect();
+    pork->attack();
+    pork->special();
 
     // =====GAME LOGIC=====yorm
     // (turn based fighting with enemy)

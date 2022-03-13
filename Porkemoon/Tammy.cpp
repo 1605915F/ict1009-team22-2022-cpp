@@ -2,8 +2,8 @@
 
 #include "Tammy.h"
 
-Tammy::Tammy(string porkeName, int maxHealth) :Porkemoon(porkeName, maxHealth) {
-	cout << "lol\n";
+Tammy::Tammy() : Porkemoon("Tammy", 150, 2) {
+	cout << "Tammy\n";
 }
 
 void Tammy::special() {

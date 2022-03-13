@@ -4,5 +4,5 @@
 
 class Potion : public Healing {
 public:
-	Potion(string itemName, int healScale);
+	Potion();
 };

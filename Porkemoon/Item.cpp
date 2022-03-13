@@ -2,9 +2,8 @@
 
 const int Item::BASEITEMSCALE = 1;
 
-Item::Item(string itemName, int itemScale) {
+Item::Item(string itemName) {
 	this->itemName = itemName;
-	this->itemScale = itemScale;
 }
 
 string Item::getItemName() {

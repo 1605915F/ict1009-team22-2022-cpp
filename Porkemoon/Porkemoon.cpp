@@ -1,9 +1,13 @@
 #include "Porkemoon.h"
 #include "Item.h"
 
-Porkemoon::Porkemoon(string porkeName, int maxHealth) {
+const int Porkemoon::baseAttack = 10;
+
+Porkemoon::Porkemoon(string porkeName, int maxHealth, int attackScale) {
 	this->porkeName = porkeName;
 	this->maxHealth = maxHealth;
+	this->health = maxHealth;
+	this->attackScale = attackScale;
 }
 
 string Porkemoon::getPorkeName() {

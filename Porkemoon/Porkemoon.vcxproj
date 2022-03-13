@@ -147,18 +147,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Elixir.cpp" />
     <ClCompile Include="GameProcessing.cpp" />
     <ClCompile Include="GameProcessing.h" />
     <ClCompile Include="Healing.cpp" />
     <ClCompile Include="Item.cpp" />
+    <ClCompile Include="Jarry.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Porkemoon.cpp" />
     <ClCompile Include="Potion.cpp" />
     <ClCompile Include="Tammy.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Elixir.h" />
     <ClInclude Include="Healing.h" />
     <ClInclude Include="Item.h" />
+    <ClInclude Include="Jarry.h" />
     <ClInclude Include="Porkemoon.h" />
     <ClInclude Include="Potion.h" />
     <ClInclude Include="Tammy.h" />

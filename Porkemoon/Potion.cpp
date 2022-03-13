@@ -1,6 +1,6 @@
 #include "Potion.h"
 
-Potion::Potion(string itemName, int healScale) : Healing(itemName, healScale) {
+Potion::Potion() : Healing("Potion", 10) {
 	cout << "potion\n";
 }
 

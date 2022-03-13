@@ -4,6 +4,6 @@
 
 class Tammy : public Porkemoon {
 public:
-	Tammy(string porkeName, int maxHealth);
+	Tammy();
 	void special();
 };

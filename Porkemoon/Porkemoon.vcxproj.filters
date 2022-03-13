@@ -30,6 +30,12 @@
     <ClInclude Include="Potion.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Jarry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Elixir.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -54,6 +60,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Potion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Jarry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Elixir.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
